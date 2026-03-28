@@ -24,6 +24,7 @@
   - [🌐 Web Scans](#-web-scans)
   - [📁 Database Scans](#️-database-scans)
   - [⚙️ Configuration File Scans](#️-configuration-file-scans)
+  - [📊 Compliance Mapping](#compliance-mapping)
 - [🛠️ Tools & Technology](#️-tools--technology)
 - [🚧 Further Work (In Progress)](#-further-work-in-progress)
 - [ Credits ](#-credits--acknowledgements)
@@ -58,7 +59,7 @@ This platform addresses all of the above by providing an **automated, repeatable
 
 ## 💡 Key Solutions & Value Proposition
 
-- ### 📊 Compliance Mapping (Built for Real-World Standards)
+- ### Compliance Mapping (Built for Real-World Standards)
 Automatically maps technical findings to widely recognised frameworks such as **ISO 27001, NIST, and PDPA/GDPR**, enabling organisations to align their security posture with regulatory and industry requirements.
 
 - ### Actionable Recommendations (Not Just Findings)
@@ -204,6 +205,17 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
   <img src="asset/ConfigFiles_scans.png" width="800">
 </p>
 
+---
+
+### 📊 Compliance Mapping
+
+Maps identified security findings to relevant industry standards and regulatory frameworks such as **ISO 27001, NIST, PCI DSS**.
+
+This helps organisations understand how technical vulnerabilities relate to compliance requirements, making it easier to identify gaps, support audit readiness, and align security practices with recognised standards.
+
+<p align="center">
+  <img src="asset/" width="800">
+</p>
 ---
 
 ## 🛠️ Tools & Technology
