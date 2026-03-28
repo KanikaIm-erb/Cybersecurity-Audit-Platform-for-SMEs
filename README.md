@@ -58,22 +58,22 @@ This platform addresses all of the above by providing an **automated, repeatable
 
 ## 💡 Key Solutions & Value Proposition
 
-### 📊 Compliance Mapping (Built for Real-World Standards)
+- ### 📊 Compliance Mapping (Built for Real-World Standards)
 Automatically maps technical findings to widely recognised frameworks such as **ISO 27001, NIST, and PDPA/GDPR**, enabling organisations to align their security posture with regulatory and industry requirements.
 
-### Actionable Recommendations (Not Just Findings)
+- ### Actionable Recommendations (Not Just Findings)
 Each identified vulnerability is enriched with **clear, prioritised remediation guidance**, helping teams move from detection → resolution without needing deep cybersecurity expertise.
 
-### Designed for Non-Technical Users
+- ### Designed for Non-Technical Users
 Translates complex security data into **simple, human-readable insights**, including risk scores, business impact explanations, and guided next steps — making it accessible for founders, managers, and small IT teams.
 
-### Risk-Based Prioritisation
+- ### Risk-Based Prioritisation
 Uses a structured risk scoring model (based on severity, exposure, and business criticality) to highlight what matters most — so SMEs don’t get overwhelmed by noise.
 
-### Unified Security Visibility
+- ### Unified Security Visibility
 Consolidates outputs from multiple tools into a **single dashboard**, eliminating fragmentation and providing a holistic view of the organisation’s security posture.
 
-### Compliance-First & Safe-by-Design
+- ### Compliance-First & Safe-by-Design
 Built with a **passive-first scanning approach**, ensuring safe deployment without disrupting production environments or violating regulatory constraints.
 
 ---
