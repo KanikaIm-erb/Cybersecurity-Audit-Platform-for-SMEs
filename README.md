@@ -1,6 +1,6 @@
 <div align="center">
 <!-- Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3C72,100:2A5298&height=200&section=header&text=Automated%20Security%20Audit%20Platform&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Compliance-Driven%20Security%20for%20SMEs&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,100:1E3C72&height=200&section=header&text=Automated%20Security%20Audit%20Platform&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=40" width="100%"/>
  
 <br/>
 
