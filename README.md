@@ -22,7 +22,7 @@
   - [🗂️ Asset Registration & Management](#️-asset-registration--management)
   - [🔍 Network Scans](#-network-scans)
   - [🌐 Web Scans](#-web-scans)
-  - [🛢️ Database Scans](#️-database-scans)
+  - [📁 Database Scans](#️-database-scans)
   - [⚙️ Configuration File Scans](#️-configuration-file-scans)
 - [🛠️ Tools & Technology](#️-tools--technology)
 - [🚧 Further Work (In Progress)](#-further-work-in-progress)
@@ -164,7 +164,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 
 ---
 
-### 🛢️ Database Scans
+### 📁 Database Scans
 
 **What it does:** Audits database instances for security misconfigurations, excessive privileges, known vulnerabilities, and exposure risks — protecting the most sensitive layer of an SME's infrastructure.
 
