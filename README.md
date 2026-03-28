@@ -1,6 +1,6 @@
 <div align="center">
 <!-- Banner -->
-<img src="[https://capsule-render.vercel.app/api](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Input%20text&fontAlign=49)?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Automated%20Security%20Audit%20Platform%20of%20SMEs&fontSize=36&fontColor=ffffff&fontAlignY=38&descAlignY=58&descColor=a8dadc" width="100%"/>
+<img src="https://capsule-render.vercel.app/" width="100%"/>
 <br/>
 
 ![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge&logo=github)
