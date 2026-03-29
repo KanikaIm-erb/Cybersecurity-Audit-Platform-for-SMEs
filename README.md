@@ -117,7 +117,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 **Tools & Tech:** `SQLite` / `PostgreSQL`, `SQLAlchemy`, `Flask-Admin`, custom Python asset manager
 
 <p align="center">
-  <img src="asset/Asset_register.png" width="300">
+  <img src="asset/Asset_register.png" width="400">
 </p>
 
 ---
