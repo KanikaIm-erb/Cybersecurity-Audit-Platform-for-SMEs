@@ -97,7 +97,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 **Tools & Tech:** `Flask` / `Streamlit`, `Jinja2`, `WeasyPrint`, `Chart.js`, `ReportLab`
 
 <p align="center">
-  <img src="asset/Database.png" width="800">
+  <img src="asset/Dashboard.png" width="800">
 </p>
 
 ---
@@ -117,7 +117,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 **Tools & Tech:** `SQLite` / `PostgreSQL`, `SQLAlchemy`, `Flask-Admin`, custom Python asset manager
 
 <p align="center">
-  <img src="asset/Asset_register.png" width="800">
+  <img src="asset/Asset_register.png" width="300">
 </p>
 
 ---
