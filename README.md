@@ -97,7 +97,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 **Tools & Tech:** `Flask` / `Streamlit`, `Jinja2`, `WeasyPrint`, `Chart.js`, `ReportLab`
 
 <p align="center">
-  <img src="asset/asset_management.png" width="800">
+  <img src="asset/Database.png" width="800">
 </p>
 
 ---
@@ -117,7 +117,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 **Tools & Tech:** `SQLite` / `PostgreSQL`, `SQLAlchemy`, `Flask-Admin`, custom Python asset manager
 
 <p align="center">
-  <img src="asset/register_asset" width="800">
+  <img src="asset/Asset_register.png" width="800">
 </p>
 
 ---
@@ -138,7 +138,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 **Tools & Tech:** `Nmap`, `Masscan`, `Netdiscover`
 
 <p align="center">
-  <img src="asset/network_scans.png" width="800">
+  <img src="asset/network.png" width="800">
 </p>
 
 ---
@@ -161,7 +161,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 **Tools & Tech:** `OWASP ZAP`, `Nikto`, `WhatWeb`, `SSLyze`, `testssl.sh`
 
 <p align="center">
-  <img src="asset/WebScans.png" width="800">
+  <img src="asset/webscan.png" width="800">
 </p>
 
 ---
@@ -182,7 +182,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 **Tools & Tech:** `Nmap` (DB NSE scripts), `sqlmap`, `Metasploit` auxiliary modules, custom Python DB auditor
 
 <p align="center">
-  <img src="asset/database_scans.png" width="800">
+  <img src="asset/Database.png" width="800">
 </p>
 
 ---
@@ -203,7 +203,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 **Tools & Tech:** `Lynis`, `TruffleHog`, `GitLeaks`, `Checkov`, custom grep-based secret scanner
 
 <p align="center">
-  <img src="asset/ConfigFiles_scans.png" width="800">
+  <img src="asset/configfile.png" width="800">
 </p>
 
 ---
@@ -215,7 +215,7 @@ Maps identified security findings to relevant industry standards and regulatory 
 This helps organisations understand how technical vulnerabilities relate to compliance requirements, making it easier to identify gaps, support audit readiness, and align security practices with recognised standards.
 
 <p align="center">
-  <img src="asset/" width="800">
+  <img src="asset/Compliance_mapping.png" width="800">
 </p>
 ---
 
