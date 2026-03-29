@@ -97,7 +97,7 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 **Tools & Tech:** `Flask` / `Streamlit`, `Jinja2`, `WeasyPrint`, `Chart.js`, `ReportLab`
 
 <p align="center">
-  <img src="asset/Dashboard.png" width="800">
+  <img src="asset/Dashboard.png" width="1000">
 </p>
 
 ---
