@@ -26,6 +26,9 @@
   - [📁 Database Scans](#️-database-scans)
   - [⚙️ Configuration File Scans](#️-configuration-file-scans)
   - [📊 Compliance Mapping](#compliance-mapping)
+  - [✅ Audit Checklist System](#-audit-checklist-system)
+  - [⚖️ Risk Scoring Engine](#️-risk-scoring-engine)
+  - [📄 Report Generation](#-report-generation)
 - [🛠️ Tools & Technology](#️-tools--technology)
 - [🚧 Further Work (In Progress)](#-further-work-in-progress)
 - [ Credits ](#-credits--acknowledgements)
@@ -70,10 +73,10 @@ Each identified vulnerability is enriched with **clear, prioritised remediation 
 Translates complex security data into **simple, human-readable insights**, including risk scores, business impact explanations, and guided next steps — making it accessible for founders, managers, and small IT teams.
 
 - ### Risk-Based Prioritisation
-Uses a structured risk scoring model (based on severity, exposure, and business criticality) to highlight what matters most — so SMEs don’t get overwhelmed by noise.
+Uses a structured risk scoring model (based on severity, exposure, and business criticality) to highlight what matters most — so SMEs don't get overwhelmed by noise.
 
 - ### Unified Security Visibility
-Consolidates outputs from multiple tools into a **single dashboard**, eliminating fragmentation and providing a holistic view of the organisation’s security posture.
+Consolidates outputs from multiple tools into a **single dashboard**, eliminating fragmentation and providing a holistic view of the organisation's security posture.
 
 - ### Compliance-First & Safe-by-Design
 Built with a **passive-first scanning approach**, ensuring safe deployment without disrupting production environments or violating regulatory constraints.
@@ -217,6 +220,80 @@ This helps organisations understand how technical vulnerabilities relate to comp
 <p align="center">
   <img src="asset/Compliance_mapping.png" width="800">
 </p>
+
+---
+
+### ✅ Audit Checklist System
+
+**What it does:** Provides a structured, two-track audit checklist that combines automated scan verification with manual review — giving organisations a complete picture of their security controls, not just what automated tools can detect.
+
+**What it includes:**
+- **Track A — Automated Verification:** Security controls are automatically verified by cross-referencing live scan results. Where a matching completed scan exists for the asset, findings are reused directly; otherwise, a targeted scan is triggered on demand
+- **Track B — Manual Review:** Governance and process controls that cannot be detected by scanners (e.g., security policies, incident response plans, staff training records) are presented as guided manual review items
+- Control ownership assignment — map each checklist item to a responsible team or individual
+- Compliance control IDs linked to ISO 27001, PCI-DSS, OWASP, NIST CSF 2.0, GDPR, HIPAA, PDPA, and CIS Controls v8
+- Pass / Fail / Pending status tracking per control with supporting evidence
+- Accordion-style UI for navigating large control sets without losing context
+
+**Tools & Tech:** `Flask`, `SQLite`, `React`, custom hybrid scan-reuse engine
+
+<p align="center">
+  <img src="asset/Audit_checklist.png" width="800">
+</p>
+
+---
+
+### ⚖️ Risk Scoring Engine
+
+**What it does:** Calculates a structured, quantitative risk score for every scanned asset using a centralised formula that accounts for finding severity, asset criticality, and internet exposure — enabling consistent, comparable risk prioritisation across the entire organisation.
+
+**How it works:**
+
+```
+Risk Score = (100 − Audit Score) × Criticality × Exposure ÷ 2
+```
+
+- **Audit Score** — derived from weighted finding counts: `CRITICAL ×4`, `HIGH ×3`, `MEDIUM ×2`, `LOW ×1`, `INFO ×0.5`
+- **Criticality** — asset business importance (1 = Low, 2 = Medium, 3 = High, 4 = Critical)
+- **Exposure** — internet-facing multiplier (1 = internal only, 2 = public-facing)
+
+**Risk classification thresholds:**
+
+| Score Range | Risk Level | Action Required |
+|---|---|---|
+| 75 – 100 | 🔴 CRITICAL | Immediate |
+| 50 – 74 | 🟠 HIGH | Urgent |
+| 25 – 49 | 🟡 MEDIUM | Planned |
+| 0 – 24 | 🟢 LOW | Monitor |
+
+A higher score indicates worse security posture. The formula is applied consistently across all scan types — Web, Network, Database, and Configuration — ensuring findings from different engines remain directly comparable.
+
+**Tools & Tech:** Python risk engine (`ConfigRiskEngine`), centralised scoring constants, `SQLite` result storage
+
+<p align="center">
+  <img src="asset/Risk_scoring.png" width="800">
+</p>
+
+---
+
+### 📄 Report Generation
+
+**What it does:** Automatically generates professional, audit-ready security reports in PDF format — covering executive summaries, technical findings, compliance mapping results, and checklist outcomes in a single downloadable document.
+
+**What it includes:**
+- **Full Audit Report** — complete end-to-end report covering all scan types, findings, risk scores, and compliance status
+- **Technical Report** — detailed findings per scan type with evidence, severity breakdown, and remediation guidance
+- **Compliance Report** — framework-by-framework view of passing and failing controls across ISO 27001, PCI-DSS, OWASP, and more
+- **Checklist Report** — Track A and Track B outcomes with control IDs, owners, and pass/fail status
+- Risk score badges and severity distribution charts embedded directly in the PDF
+- Organisation and asset metadata included for professional presentation
+
+**Tools & Tech:** `ReportLab` (PDF generation), `Flask` blueprint (`/api/reports`), custom ReportLab Drawing API for risk badges and layout
+
+<p align="center">
+  <img src="asset/Report_generation.png" width="800">
+</p>
+
 ---
 
 ## 🛠️ Tools & Technology
