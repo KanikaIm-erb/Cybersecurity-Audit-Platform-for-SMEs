@@ -1,6 +1,6 @@
 <div align="center">
 <!-- Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,100:1E3C72&height=200&section=header&text=Automated%20Security%20Audit%20Platform&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=40" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D7377,50:14BDAC,100:48E5C2&height=200&section=header&text=Automated%20Security%20Audit%20Platform&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=40" width="100%"/>
  
 <br/>
 
@@ -31,6 +31,7 @@
   - [📄 Report Generation](#-report-generation)
 - [🛠️ Tools & Technology](#️-tools--technology)
 - [🚧 Further Work (In Progress)](#-further-work-in-progress)
+- [📄 License](#-license)
 - [ Credits ](#-credits--acknowledgements)
 
 ---
@@ -213,9 +214,28 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 
 ### 📊 Compliance Mapping
 
-Maps identified security findings to relevant industry standards and regulatory frameworks such as **ISO 27001, NIST, PCI DSS**.
+**What it does:** Automatically maps every identified security finding to relevant controls across eight internationally recognised compliance frameworks — giving organisations a clear picture of where they stand against regulatory and industry requirements.
 
-This helps organisations understand how technical vulnerabilities relate to compliance requirements, making it easier to identify gaps, support audit readiness, and align security practices with recognised standards.
+**Supported frameworks:**
+
+| Framework | Focus Area |
+|---|---|
+| 🔵 **ISO/IEC 27001:2022** | Information security management system controls |
+| 🔴 **PCI-DSS v4.0** | Payment card data protection requirements |
+| 🟠 **OWASP Top Ten** | Most critical web application security risks |
+| 🟣 **NIST CSF 2.0** | Cybersecurity risk management functions |
+| 🟤 **PDPA Thailand** | Thai personal data protection obligations |
+| 🟢 **GDPR** | EU general data protection regulation |
+| 🩵 **HIPAA** | US healthcare data privacy and security rules |
+| ⚫ **CIS Controls v8** | Prioritised cybersecurity best practices |
+
+**What it delivers:**
+- Per-finding compliance tags shown directly alongside scan results
+- Framework-filtered compliance tabs in each scan detail view
+- Pass / Fail control counts per framework in the audit checklist
+- Compliance gap summary in generated PDF reports
+
+**Tools & Tech:** `compliance_mapper.py` (Python), `CompliancePanel.jsx` (React tabbed UI), integrated across all four scan engines
 
 <p align="center">
   <img src="asset/Compliance_mapping.png" width="800">
@@ -322,6 +342,31 @@ The platform is actively being developed. The following features and improvement
 - [ ]  **Alert & Notification System** — Email/Slack alerts triggered when critical vulnerabilities are discovered
 - [ ]  **Cloud Asset Discovery** — Integration with AWS, Azure, and GCP APIs to scan cloud-hosted resources
 - [ ]  **CI/CD Pipeline Integration** — Plugin support for GitHub Actions and GitLab CI for DevSecOps workflows
+
+---
+
+## 📄 License
+
+**Custom Restricted License © 2024 Kanika Im-erb**
+
+**You ARE NOT Permitted To:**
+
+❌ Copy, clone, or redistribute any portion of this codebase  
+❌ Publish, repost, or republish the repository or its contents  
+❌ Use this project for commercial purposes without explicit written permission  
+❌ Claim authorship or modify and redistribute the code  
+❌ Create public forks (private study only)  
+❌ Extract and reuse the dataset, detection patterns, or algorithms  
+
+**You ARE Permitted To:**
+
+✅ View and study the repository for personal learning purposes only  
+✅ Reference this work in academic citations  
+✅ Provide feedback for improvements  
+
+**Enforcement**
+
+Unauthorized copying, replication, redistribution, or commercial use is strictly prohibited and may result in legal action.
 
 ---
 
