@@ -220,14 +220,14 @@ Built with a **passive-first scanning approach**, ensuring safe deployment witho
 
 | Framework | Focus Area |
 |---|---|
-| 🔵 **ISO/IEC 27001:2022** | Information security management system controls |
-| 🔴 **PCI-DSS v4.0** | Payment card data protection requirements |
-| 🟠 **OWASP Top Ten** | Most critical web application security risks |
-| 🟣 **NIST CSF 2.0** | Cybersecurity risk management functions |
-| 🟤 **PDPA Thailand** | Thai personal data protection obligations |
-| 🟢 **GDPR** | EU general data protection regulation |
-| 🩵 **HIPAA** | US healthcare data privacy and security rules |
-| ⚫ **CIS Controls v8** | Prioritised cybersecurity best practices |
+| **ISO/IEC 27001:2022** | Information security management system controls |
+| **PCI-DSS v4.0** | Payment card data protection requirements |
+| **OWASP Top Ten** | Most critical web application security risks |
+| **NIST CSF 2.0** | Cybersecurity risk management functions |
+| **PDPA Thailand** | Thai personal data protection obligations |
+| **GDPR** | EU general data protection regulation |
+| **HIPAA** | US healthcare data privacy and security rules |
+| **CIS Controls v8** | Prioritised cybersecurity best practices |
 
 **What it delivers:**
 - Per-finding compliance tags shown directly alongside scan results
